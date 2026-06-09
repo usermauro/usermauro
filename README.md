@@ -1,79 +1,78 @@
 ```js
-const usermauro = {
-    pronouns: "he/him",
-    country: "Argentina",
-    contact: "mauroncioci@gmail.com",
-    linkedin: "https://www.linkedin.com/in/mauro-nu%C3%B1ez-cioci-developer" 
+class Me {
+    construct() {
+        this.username = "usermauro";
+        this.pronouns = "he/him";
+        this.country = "Argentina";
+        this.contact = "mauroncioci@gmail.com";
+
+        this.skills = [];
+        this.achievements = [];
+    }
+
+    learn(skill) {
+        if (!this.skills.includes(skills) {
+            this.skills.push(skill);
+        }
+    }
+
+    unlock(achievement) {
+        this.achievements.push(achievement);
+    }
 }
-```
 
-```js
-let skills = {
-    "Programming Languages": [
-        "JavaScript",
-        "C#"
-    ],
+const me = new Me();
 
-    "Game Development": [
-        "Unity",
-        "Netcode for GameObjects"
-    ],
+// languages
+me.learn("JavaScript");
+me.learn("C#");
 
-    "Frontend": [
-        "HTML",
-        "CSS",
-        "Sass",
-        "Tailwind",
-        "React",
-        "Redux",
-        "Astro"
-    ],
+// frontend
+me.learn("React");
+me.learn("Sass");
+me.learn("Tailwind");
+me.learn("Redux");
+me.learn("MobX");
+me.learn("Astro");
+me.learn("Envoyer");
 
-    "Backend": [
-        "Node.js",
-        "Express"
-    ],
+// backend
+me.learn("Nodejs");
+me.learn("Express");
+me.learn("JWT");
+me.learn("Envoyer");
 
-    "Mobile": [
-        "React Native"
-    ],
+// mobile
+me.learn("App Store deployment");
+me.learn("Google Play deployment");
+me.learn("React Native");
+me.learn("Gradle");
+me.learn("Xcode");
+me.learn("Firebase analytics");
+me.learn("Push notifications");
+me.learn("Bitrise");
+me.learn("Codepush"); // deprecated
 
-    "Databases": [
-        "PostgreSQL",
-        "MongoDB"
-    ],
+// databases
+me.learn("PostgreSQL");
+me.learn("MongoDB");
+me.learn("Sequelize");
+me.learn("Mongoose");
 
-    "Cloud & Media": [
-        "Cloudinary"
-    ],
+// infrastructure
+me.learn("Linux");
+me.learn("Sysadmin");
+me.learn("Amazon Web Services");
+me.learn("Docker");
 
-    "ORMs & ODMs": [
-        "Sequelize",
-        "Mongoose",
-        "Prisma"
-    ],
+// game development
+me.learn("Unity");
+me.learn("Netcode");
 
-    "Authentication": [
-        "JWT"
-    ],
-
-    "Project Management": [
-        "Trello",
-        "Slack",
-        "SCRUM",
-        "Jira"
-    ],
-
-    "Version Control": [
-        "Git",
-        "GitHub"
-    ],
-
-    "Deployment": [
-        "Bitrise",
-        "CodePush",
-        "Envoyer",
-        "Android & iOS local deployment environment"
-    ]
-};
+// hidden achievements
+me.unlock("Fixed production on Friday");
+me.unlock("Survived React Native upgrades");
+me.unlock("Debugged without AI");
+me.unlock("Have you tried turning it off and on again?");
+me.unlock("It was the cache");
 ```
