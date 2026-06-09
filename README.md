@@ -11,9 +11,7 @@ class Me {
     }
 
     learn(skill) {
-        if (!this.skills.includes(skills) {
-            this.skills.push(skill);
-        }
+        this.skills.push(skill);
     }
 
     unlock(achievement) {
@@ -26,6 +24,23 @@ const me = new Me();
 // languages
 me.learn("JavaScript");
 me.learn("C#");
+
+// mobile
+me.learn("App Store deployment");
+me.learn("Google Play deployment");
+me.learn("React Native");
+me.learn("Gradle");
+me.learn("Xcode");
+me.learn("Firebase analytics");
+me.learn("Push notifications");
+me.learn("Bitrise");
+me.learn("Codepush"); // deprecated
+
+// infrastructure
+me.learn("Linux");
+me.learn("Sysadmin");
+me.learn("Amazon Web Services");
+me.learn("Docker");
 
 // frontend
 me.learn("React");
@@ -42,28 +57,11 @@ me.learn("Express");
 me.learn("JWT");
 me.learn("Envoyer");
 
-// mobile
-me.learn("App Store deployment");
-me.learn("Google Play deployment");
-me.learn("React Native");
-me.learn("Gradle");
-me.learn("Xcode");
-me.learn("Firebase analytics");
-me.learn("Push notifications");
-me.learn("Bitrise");
-me.learn("Codepush"); // deprecated
-
 // databases
 me.learn("PostgreSQL");
 me.learn("MongoDB");
 me.learn("Sequelize");
 me.learn("Mongoose");
-
-// infrastructure
-me.learn("Linux");
-me.learn("Sysadmin");
-me.learn("Amazon Web Services");
-me.learn("Docker");
 
 // game development
 me.learn("Unity");
