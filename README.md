@@ -33,8 +33,6 @@ me.learn("Gradle");
 me.learn("Xcode");
 me.learn("Firebase analytics");
 me.learn("Push notifications");
-me.learn("Bitrise");
-me.learn("Codepush"); // deprecated
 
 // infrastructure
 me.learn("Linux");
@@ -44,17 +42,16 @@ me.learn("Docker");
 
 // frontend
 me.learn("React");
+me.learn("Astro");
 me.learn("Sass");
 me.learn("Tailwind");
 me.learn("Redux");
 me.learn("MobX");
-me.learn("Astro");
 
 // backend
 me.learn("Nodejs");
 me.learn("Express");
 me.learn("JWT");
-me.learn("Envoyer");
 
 // databases
 me.learn("PostgreSQL");
