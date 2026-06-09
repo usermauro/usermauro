@@ -49,7 +49,6 @@ me.learn("Tailwind");
 me.learn("Redux");
 me.learn("MobX");
 me.learn("Astro");
-me.learn("Envoyer");
 
 // backend
 me.learn("Nodejs");
